@@ -6,6 +6,32 @@
     <title>Mi Página Web</title>
     <link rel="stylesheet"  href="stylos.css">
 </head>
+ <style>
+    body {
+      background-color: #f5f5f5; 
+      height: 100vh;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 40px;
+      color: #444;
+      opacity: 0;
+      transform: translateY(50px);
+      animation: fadeInUp 2s forwards;
+    }
+
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -342,8 +368,22 @@
 
 
    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
-</html>
+
 
 
 
